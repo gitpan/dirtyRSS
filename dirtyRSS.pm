@@ -7,7 +7,7 @@ require Exporter;
 
 @dirtyRSS::ISA = qw[Exporter];
 @dirtyRSS::EXPORT = qw[&parse &disptree];
-$dirtyRSS::VERSION = '0.1';
+$dirtyRSS::VERSION = '0.2';
 
 our %htmlescapes = (
 		    'quot' => 34,
@@ -492,7 +492,7 @@ it.
 
 =head1 HISTORY
 
-The module is part of the Editaste site, L<http://www.editaste.com/cgi-bin/do>
+The module is part of the Editaste site, L<http://www.editaste.com>
 
 =head1 AUTHOR
 
